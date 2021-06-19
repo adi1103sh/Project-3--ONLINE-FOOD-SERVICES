@@ -6,6 +6,7 @@
     background-color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 h3{
     color: white;
