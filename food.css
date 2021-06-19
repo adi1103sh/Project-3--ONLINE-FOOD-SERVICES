@@ -1,0 +1,144 @@
+/* TO SET DEFAULTS FOR ENTIRE HTML */
+*{
+    margin:0;
+    padding:0;
+    color: white;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+h3{
+    color: white;
+    text-align:center;
+}
+
+/* BEAUTIFYING NAVIGATION BAR */
+#navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(Images/navbar_background.jpg) no-repeat center center/cover;
+}
+#navbar #items{
+    height: 71px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    opacity: 0.9;
+}
+
+#navbar ul{
+    display: flex;
+    margin-top: 20px;
+}
+#navbar li{
+    padding:0px 40px;
+}
+
+/* STYLING LINKS OF NAVIGATION BAR */
+#navbar li a{
+    text-decoration:none;
+    font-size: 1.5rem;
+    color:white;
+    font-family: cursive;
+    padding: 5px;
+}
+#navbar li a:hover{
+    transition:0.5s;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: red;
+    background-color: white;
+    border-radius: 20px;
+}
+#navbar li a.active{
+    text-transform: uppercase;
+    text-decoration: underline;
+    color:red;
+    background-color: white;
+    border-radius: 20px;
+}
+
+/* STYLING LOGO */
+#logo img{
+    width:336px;
+    height:200px;
+    margin: 5px;
+}
+#logo p{
+    font-size:2rem;
+    text-align:center;
+    font-family: fantasy;
+    color: yellow;
+}
+
+/* STYLING HOME SECTION */
+#home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 415px;
+    margin: 57px;
+    font-size: 1.3rem;
+    background-image: url(Images/home_background.jpg);
+}
+h2{
+    font-size: 2rem;
+    color: yellow;
+}
+p,h2,h3{
+    align-items: center;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+#home p,em,strong, #services p,em,strong, #menu p,em,strong, #about p,em,strong{
+    text-align: center;
+    color: white;
+    font-weight: 30px;
+}
+
+/* STYLING SERVICES SECTION */
+.container{
+    display: flex;
+    font-size: 1.2rem;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+#services .container img{
+    width: 250px;
+    height: 250px;
+    padding:10px;
+    margin: 5px;
+    margin-left: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.left, .mid, .right{
+    width: 467px;
+    height: 444px;
+    padding:10px;
+    margin: 5px;
+    border: 2px solid red;
+    border-radius: 20px;
+    background-color: rgb(218, 249, 239);
+}
+
+/* STYLING MENU SECTION */
+#menu{
+    /* background-color: rgb(104, 35, 35) ; */
+    height: 1837px;
+}
+
+#first ,#second{
+    display:flex;
+    flex-direction: column;
+    width: 472px;
+    height: 500px;
+    padding:10px;
+    margin: 5px;
+}
+
